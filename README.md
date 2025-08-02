@@ -1,54 +1,68 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# Visume 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Hello World
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Alan Joshi George - TKM College of Engineering
+- Member 2: Affan Muhammed N - TKM College of Engineering
 
 ### Project Description
 [2-3 lines about what your project does]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Transform your static resume into an AI-generated talking avatar video. Upload a resume and a photo, and boom — your digital twin introduces you in style.
+
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Resumes are boring. HRs don’t like reading. We solve the problem of “paper not speaking.” Because everyone wants their résumé to talk... right?
 
 ## Technical Details
 ### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+Languages: Python, JavaScript
+Frameworks: FastAPI (Backend), React.js (Frontend)
+Libraries:
+pdfplumber for resume parsing
+axios, tailwindcss, react
+D-ID API for avatar generation
+Tools:
+Postman (API testing)
+VSCode
+Git & GitHub
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+#Backend
+cd backend
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
 
 # Run
-[commands]
+cd backend
+python -m venv venv
+source venv/bin/activate    # or .\venv\Scripts\activate on Windows
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+cd frontend
+npm install
+npm run dev                 # or npm start
+
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+
+![Page1](images/first.png)
+![Page2](images/second.png)
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
